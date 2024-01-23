@@ -1,0 +1,58 @@
+```
+function addNumbers(a: number, b: number): number {
+  return a + b;
+}
+```
+```
+interface Person {
+  name: string;
+  age: number;
+}
+```
+```
+const colors: string[] = ["red", "green", "blue"];
+```
+```
+class Car {
+  constructor(public brand: string) {}
+
+  startEngine() {
+    console.log(`${this.brand} engine started.`);
+  }
+}
+```
+```
+let isRaining: boolean = true;
+
+if (isRaining) {
+  console.log("Take an umbrella!");
+} else {
+  console.log("Enjoy the sunshine!");
+}
+```
+```
+enum Status {
+  Pending,
+  Approved,
+  Rejected,
+}
+```
+```
+const double = (num: number): number => num * 2;
+```
+```
+class MathUtils {
+  static square(num: number): number {
+    return num * num;
+  }
+}
+```
+```
+import { Product } from "./product";
+
+const item: Product = new Product("Laptop", 999);
+```
+```
+const numbers: number[] = [1, 2, 3, 4, 5];
+const evenNumbers: number[] = numbers.filter((num) => num % 2 === 0);
+```

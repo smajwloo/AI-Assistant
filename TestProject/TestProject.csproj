@@ -1,0 +1,56 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="JunitXml.TestLogger" Version="3.0.134" />
+        <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="7.0.11" />
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.12" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.12" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.12" />
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0"/>
+        <PackageReference Include="Moq" Version="4.20.69" />
+        <PackageReference Include="Moq.AutoMock" Version="3.5.0" />
+        <PackageReference Include="NUnit" Version="3.13.3" />
+        <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+        <PackageReference Include="NUnit.Analyzers" Version="3.6.1" />
+        <PackageReference Include="coverlet.collector" Version="3.2.0" />
+        <PackageReference Include="System.IO.Abstractions" Version="19.2.69" />
+        <PackageReference Include="System.IO.Abstractions.TestingHelpers" Version="19.2.69" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+        <PackageReference Include="Microsoft.AspNet.SignalR" Version="2.4.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core\AiaApi.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <None Remove="Application\Controller\" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Update="GlobalUsings.cs">
+            <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </Compile>
+      <None Remove="Testfiles\_code_snippets" />
+      <None Remove="Testfiles\_comments.txt" />
+        <None Remove="Testfiles\_eslint_comments.txt" />
+      <Content Include="Testfiles\_comments.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <Content Include="Testfiles\_eslint_comments.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+      <None Remove="Testfiles\_code_snippets.txt" />
+      <Content Include="Testfiles\_code_snippets.txt">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </Content>
+    </ItemGroup>
+</Project>

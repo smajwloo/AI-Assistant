@@ -1,0 +1,294 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/TestProject/TestProject.csproj": {}
+  },
+  "projects": {
+    "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/Core/AiaApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/Core/AiaApi.csproj",
+        "projectName": "AiaApi",
+        "projectPath": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/Core/AiaApi.csproj",
+        "packagesPath": "/Users/Stef/.nuget/packages/",
+        "outputPath": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Stef/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/InterfacesAia/InterfacesAia.csproj": {
+                "projectPath": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/InterfacesAia/InterfacesAia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.AI.OpenAI": {
+              "target": "Package",
+              "version": "[1.0.0-beta.8, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.18.0, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "NGitLab": {
+              "target": "Package",
+              "version": "[6.39.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[19.2.69, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/InterfacesAia/InterfacesAia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/InterfacesAia/InterfacesAia.csproj",
+        "projectName": "InterfacesAia",
+        "projectPath": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/InterfacesAia/InterfacesAia.csproj",
+        "packagesPath": "/Users/Stef/.nuget/packages/",
+        "outputPath": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/InterfacesAia/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Stef/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/TestProject/TestProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/TestProject/TestProject.csproj",
+        "projectName": "TestProject",
+        "projectPath": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/TestProject/TestProject.csproj",
+        "packagesPath": "/Users/Stef/.nuget/packages/",
+        "outputPath": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/TestProject/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/Stef/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/Core/AiaApi.csproj": {
+                "projectPath": "/Users/Stef/AA_gitlab/AI-Assistant/AI-Assistant/Core/AiaApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "JunitXml.TestLogger": {
+              "target": "Package",
+              "version": "[3.0.134, )"
+            },
+            "Microsoft.AspNet.SignalR": {
+              "target": "Package",
+              "version": "[2.4.3, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.69, )"
+            },
+            "Moq.AutoMock": {
+              "target": "Package",
+              "version": "[3.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.3, )"
+            },
+            "NUnit.Analyzers": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.4.2, )"
+            },
+            "System.IO.Abstractions": {
+              "target": "Package",
+              "version": "[19.2.69, )"
+            },
+            "System.IO.Abstractions.TestingHelpers": {
+              "target": "Package",
+              "version": "[19.2.69, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

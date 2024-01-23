@@ -1,0 +1,31 @@
+---
+// eslint-This is an eslint-comment of the first type
+---
+/**
+ * eslint-This is an eslint-comment of the second type
+ */
+---
+// eslint-Another eslint-comment of the first type
+---
+/**
+ * eslint-Another eslint-comment of the second type
+ */
+---
+// eslint-Yet another eslint-comment of the first type
+---
+/**
+ * eslint-Yet another eslint-comment of the second type
+ */
+---
+// eslint-This is a third eslint-comment of the first type
+---
+/**
+ * eslint-This is a third eslint-comment of the second type
+ */
+---
+// eslint-One more eslint-comment of the first type
+---
+/**
+ * eslint-One more eslint-comment of the second type
+ */
+---

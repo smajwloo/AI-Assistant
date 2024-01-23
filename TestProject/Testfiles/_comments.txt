@@ -1,0 +1,161 @@
+---
+/**
+ * This is a JSDoc comment
+ */
+---
+/**
+ * Here's another JSDoc comment
+ */
+---
+/**
+ * A comment to explain the following code
+ */
+---
+/**
+ * Don't forget to refactor this later
+ */
+---
+/**
+ * This function needs optimization
+ */
+---
+/**
+ * Adding a new feature here
+ */
+---
+/**
+ * TODO: Implement error handling
+ */
+---
+/**
+ * Consider using a different algorithm
+ */
+---
+/**
+ * Refactoring this for clarity
+ */
+---
+/**
+ * Explaining the purpose of this class
+ */
+---
+/**
+ * Documenting a complex logic block
+ */
+---
+/**
+ * Important business logic here
+ */
+---
+/**
+ * Review and optimize this code
+ */
+---
+/**
+ * Fixing a bug reported in issue #123
+ */
+---
+/**
+ * Explaining the API endpoint behavior
+ */
+---
+/**
+ * Enhancing performance with this change
+ */
+---
+/**
+ * TODO: Add unit tests for this module
+ */
+---
+/**
+ * Documenting edge case handling
+ */
+---
+/**
+ * Ensuring data validation here
+ */
+---
+/**
+ * Describing a variable's purpose
+ */
+---
+/* This is a TypeScript block comment */
+---
+/* Here's another TypeScript block comment */
+---
+/* A comment to explain the following code */
+---
+/* Don't forget to refactor this later */
+---
+/* This function needs optimization */
+---
+/* Adding a new feature here */
+---
+/* TODO: Implement error handling */
+---
+/* Consider using a different algorithm */
+---
+/* Refactoring this for clarity */
+---
+/* Explaining the purpose of this class */
+---
+/* Documenting a complex logic block */
+---
+/* Important business logic here */
+---
+/* Review and optimize this code */
+---
+/* Fixing a bug reported in issue #123 */
+---
+/* Explaining the API endpoint behavior */
+---
+/* Enhancing performance with this change */
+---
+/* TODO: Add unit tests for this module */
+---
+/* Documenting edge case handling */
+---
+/* Ensuring data validation here */
+---
+/* Describing a variable's purpose */
+---
+// This is a TypeScript comment.
+---
+// Here's another TypeScript comment.
+---
+// A comment to explain the following code.
+---
+// Don't forget to refactor this later.
+---
+// This function needs optimization.
+---
+// Adding a new feature here.
+---
+// TODO: Implement error handling.
+---
+// Consider using a different algorithm.
+---
+// Refactoring this for clarity.
+---
+// Explaining the purpose of this class.
+---
+// Documenting a complex logic block.
+---
+// Important business logic here.
+---
+// Review and optimize this code.
+---
+// Fixing a bug reported in issue #123.
+---
+// Explaining the API endpoint behavior.
+---
+// Enhancing performance with this change.
+---
+// TODO: Add unit tests for this module.
+---
+// Documenting edge case handling.
+---
+// Ensuring data validation here.
+---
+// Describing a variable's purpose.
+---

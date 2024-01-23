@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>55FAA578-2232-49A8-90B8-2C8ACC331200</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>SharedFiles</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)..\docker-compose.debug.yml">
+      <Link>docker-compose.debug.yml</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\docker-compose.yml">
+      <Link>docker-compose.yml</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Dockerfile">
+      <Link>Dockerfile</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\gitlab-ci">
+      <Link>gitlab-ci</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\gitpod">
+      <Link>gitpod</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\.DS_Store">
+      <Link>Temp\.DS_Store</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\30397022_02-10-2023_15-54-15.zip">
+      <Link>Temp\30397022_02-10-2023_15-54-15.zip</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\30397022_10-10-2023_15-58-42.zip">
+      <Link>Temp\30397022_10-10-2023_15-58-42.zip</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\30397022_10-10-2023_17-08-56.zip">
+      <Link>Temp\30397022_10-10-2023_17-08-56.zip</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\joost-main.zip">
+      <Link>Temp\joost-main.zip</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\Output\.DS_Store">
+      <Link>Temp\Output\.DS_Store</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\Output\30397022_02-10-2023_15-54-15.zip">
+      <Link>Temp\Output\30397022_02-10-2023_15-54-15.zip</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\Output\30397022_10-10-2023_15-58-42.zip">
+      <Link>Temp\Output\30397022_10-10-2023_15-58-42.zip</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\Output\30397022_10-10-2023_17-08-56.zip">
+      <Link>Temp\Output\30397022_10-10-2023_17-08-56.zip</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\Output\joost-main-0a2c899c005597bf50e51eacf89f3031f77da8ae\.DS_Store">
+      <Link>Temp\Output\joost-main-0a2c899c005597bf50e51eacf89f3031f77da8ae\.DS_Store</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\Output\joost-main-0a2c899c005597bf50e51eacf89f3031f77da8ae\web\.DS_Store">
+      <Link>Temp\Output\joost-main-0a2c899c005597bf50e51eacf89f3031f77da8ae\web\.DS_Store</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\Output\joost-main-0a2c899c005597bf50e51eacf89f3031f77da8ae\web\src\.DS_Store">
+      <Link>Temp\Output\joost-main-0a2c899c005597bf50e51eacf89f3031f77da8ae\web\src\.DS_Store</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\Output\joost-main.zip">
+      <Link>Temp\Output\joost-main.zip</Link>
+    </Content>
+    <Content Include="$(MSBuildThisFileDirectory)..\Temp\Output\joost-maine.zip">
+      <Link>Temp\Output\joost-maine.zip</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="$(MSBuildThisFileDirectory)..\Temp\Output\joost-main-0a2c899c005597bf50e51eacf89f3031f77da8ae\web\src\menu.ts">
+      <Link>Temp\Output\joost-main-0a2c899c005597bf50e51eacf89f3031f77da8ae\web\src\menu.ts</Link>
+    </TypeScriptCompile>
+  </ItemGroup>
+</Project>
