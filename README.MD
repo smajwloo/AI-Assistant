@@ -1,7 +1,5 @@
 # AI Assistant
 
-## Description
-
 Why did we create this project? 
 Well, we were sitting around one day, sipping our coffees, and thought, "You know what the world needs? 
 Another AI project!" So, here we are.
